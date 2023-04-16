@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (11/28/2021)
+%
+% Author:
+% Shubham Mazumder (http://mazumder.me)
+%
+% Hacked together from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add more icon options 
+% 4. Fix hacky left alignment on contact line
+% 5. Remove Hacky fix for awkward extra vertical space
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the vertical limit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{plushcv}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Aman}{Kumar}{}{\contactline{\href{https://amankumariitjee.teachmint.in/}{homepage}}{\href{https://www.github.com/amankumar003}{Github}}{\href{https://www.linkedin.com/in/aman-kumar-51089120b/}{LinkedIn}}{\href{amankumar.er6174@gmail.com}{amankumar.er6174@gmail.com}}{\href{tel:+91 9797052979}{+91 9797052979}}}
+
+
+ \begin{minipage}[t]{0.70\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Brainlox.AI}
+\descript{| \textbf{AI (RnD)} \textbf{Intern}}
+\location{January 2023 – Current |Remote, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+
+\item Working in \textbf{MVP} team, created \textbf{Back-end APIs} using \textbf{AWS Lambda}, API Gateway,.
+\item Researched \& implemented the featured product \textbf{AI tutor} of branlox.ai. \item Successfully achieved and increased the \textbf{customer retention} rate by \textbf{70\% }.  
+\item Worked on \textbf{sentimental analysis} using Notifier.so for python user experience. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Localytee}
+\descript{| \textbf{Software Engineer intern} }
+\location{February 2023 – March 2023 |  {\href{https://drive.google.com/file/d/1vr6rerDdbqMr6JqtzPzGXK4PGN9KcLzm/view?usp=sharing}{\textcolor{cyan}{\textbf{Link}}}}}
+\begin{tightemize}
+
+\item Created landing page using \textbf{React.Js} for US based real estate client footfallz.
+\item Fixed front end issues of footfallz mobile app using \textbf{React-native}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Shri Mata Vaishno Devi University}
+\descript{| Machine Learning Research Intern }
+\location{July 2022 – August 2022 | SMVDU, JK, India}
+\begin{tightemize}
+
+\item Researched on Short Term Load forecasting Using artificial neural networks, achieved
+Accuracy of \textbf{91.92 percent},and created reports on research activities.
+\end{tightemize}
+\sectionsep
+\runsubsection{Educator}
+\descript{ Self and SME |  
+{\href{https://amankumariitjee.teachmint.in/}{\textcolor{cyan}{\textbf{Personal Website link}}}}}
+\location{July 2020 – January 2023 | Remote, India}
+\begin{tightemize}
+
+\item \textbf{3+ years experienced} in Teaching and guiding to high school  (mainly Mathematics) successfully taught and guided more than \textbf{700+ students}
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\runsubsection{ATS-Alumni Tracking System}
+\descript{| React | MongoDB | Express,NodeJS | Bootstrap | {\href{https://github.com/amankumar003/ATS-Alumni_Tracking_System}{\textcolor{cyan}{\textbf{link}}}}}
+\begin{tightemize}
+\item A web-based application for colleges to track\& search their Alumni  
+\item allow the Alumni to register, login and update their details \textbf{cloudinary} 
+\item send emails to alumni and reset password via email using \textbf{sendgrid}
+\item provision for Alumni to share posts,like and comment on posts on Community tab
+\item FAQs asked by Alumni and answered by admin..
+\end{tightemize}
+\sectionsep
+\runsubsection{DOG BREED Predictor APP}
+\descript{| Machine learning Python, Tensor Flow, Keras Fastapi, Azure, JavaScript |{\href{https://github.com/amankumar003/Dog-breed-classifier-App}{\textcolor{cyan}{\textbf{See Project}}}}}
+\begin{tightemize}
+\item  \textbf{A Full-Stack Web-APP} that classifies \textbf{120} Breeds of dogs with a precision of 86\%. Used Inception-ResNet-V2, deployed using Fastapi on Azure VM. 
+\item Compared 12 different Transfer learning Models on a data set of 20000 Images.
+\item Used Data Augmentation, Learning-Rate Decay, Model Check-Pointing, and Early Stopping to improve overall performance of the model. 
+\end{tightemize}
+\sectionsep
+\runsubsection{conversational AI bot}
+\descript{| Machine learning, Python, openAI Api |{\href{https://github.com/amankumar003/gpt4_powered_AWS_serverless_chatbot}{\textcolor{cyan}{\textbf{See Project}}}}} 
+\begin{tightemize}
+\item  A Python based Conversational AI bot 
+\item The script creates a \textbf{chatbot} that simulates the character Peter Griffin and helps you learn Python programming in his unique style.
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Achievements} 
+\begin{tabular}{rll}
+2023	     & \textbf{1st} runner-up at Microsoft Ideathon among 62+teams\\
+2022	     & Hactober fest (open source contribution)\\
+\\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.25\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\sectionsep
+\subsection{Tools/Platforms}
+\sectionsep
+Proficient: C++ \textbullet{} Python \textbullet{} CSS \textbullet{} HTML\  \\
+Intermediate: JavaScript \textbullet{} SQL  \\   
+
+
+\sectionsep
+\subsection{Libraries/Frameworks}
+\sectionsep
+jQuery \textbullet{} Node.js \textbullet{} React.Js \textbullet{} ML Libraries
+\sectionsep
+\sectionsep
+\subsection{Tools/Platforms}
+\sectionsep
+Git \textbullet{} Jupyter \textbullet{} Collab \textbullet{} VS Code\   \\
+\sectionsep
+\sectionsep
+\subsection{Other skills}
+\sectionsep
+Data Structures and algorithms \textbullet{} AWS lambda, API gateways, \textbullet{} Troubleshooting technical issues  \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{Shri Mata Vaishno Devi University}
+\descript{Bachelor of Technology in Electronics and Communication }
+\location{Sept 2020 - Sept 2024 |  Katra(JK), India}
+\location{ Cum. CGPA: 7.55 / 10.0 }
+\sectionsep
+\subsection{St.Paul's Senior secondary school}
+\descript{High school}
+\location{May 2017 - 2019 | Aburoad, Rajasthan}
+\location{ Percent: 86 / 100 }
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Roles and Responsibility} 
+\textbf{Head}, \@AI CIRCLE, The Machine learning club of SMVDU
+\sectionsep
+\\
+\href{https://www.linkedin.com/company/tech-smvdu/}{\textbf{Organiser}}, SMVDU Tech Community, A growing community of \textbf{600+} developers and students 
+\\
+\textbf{Training and placement coordinator}, \@T\&P Cell, SMVDU
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+
+% \subsection{Graduate}
+% Graduate Algorithms \textbullet{}\\ 
+% Advanced Computer Architecture \textbullet{}\\ 
+% Operating Systems \textbullet{}\\ 
+% Artificial Intelligence \textbullet{}\\
+% Visualization For Scientific Data \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+
+% Database Management Systems \textbullet{}\\
+% Object Oriented Analysis and Design \textbullet{}\\
+% Artificial Intelligence and Expert Systems \textbullet{}\\
+% Scripting Languages and Web Tech \textbullet{}\\
+% Software Engineering \\
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
